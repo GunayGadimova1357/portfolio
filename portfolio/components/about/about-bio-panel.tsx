@@ -100,7 +100,7 @@ const TECHNOLOGIES: TechnologyItem[] = [
   },
   {
     name: "Next.js",
-    href: "https://github.com/GunayGadimova1357/next.js",
+    href: "https://github.com/GunayGadimova1357/nextjs",
     simpleIcons: [siNextdotjs],
   },
   {
