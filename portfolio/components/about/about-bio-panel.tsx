@@ -33,52 +33,52 @@ type TechnologyItem = {
 const TECHNOLOGIES: TechnologyItem[] = [
   {
     name: "Python",
-    href: "https://github.com/GunayGadimova1357/PythonHw",
+    href: "https://github.com/GunayGadimova1357/Python",
     simpleIcons: [siPython],
   },
   {
     name: "HTML / CSS",
-    href: "https://github.com/GunayGadimova1357/html-cssHw",
+    href: "https://github.com/GunayGadimova1357/Html-css",
     simpleIcons: [siHtml5, siCss],
   },
   {
     name: "JavaScript",
-    href: "https://github.com/tc39/ecma262",
+    href: "https://github.com/GunayGadimova1357/Js",
     simpleIcons: [siJavascript],
   },
   {
     name: "C++",
-    href: "https://github.com/isocpp/CppCoreGuidelines",
+    href: "https://github.com/GunayGadimova1357/Cplusplus",
     simpleIcons: [siCplusplus],
   },
   {
     name: "C#",
-    href: "https://github.com/dotnet/runtime",
+    href: "https://github.com/GunayGadimova1357/Csharp",
     simpleIcons: [siDotnet],
   },
   {
     name: "EF Core",
-    href: "https://github.com/dotnet/efcore",
+    href: "https://github.com/GunayGadimova1357/EntityFramework",
     simpleIcons: [siDotnet],
   },
   {
     name: "SQL",
-    href: "https://github.com/postgres/postgres",
+    href: "https://github.com/GunayGadimova1357/SQL",
     simpleIcons: [siPostgresql],
   },
   {
     name: "System Programming",
-    href: "https://github.com/torvalds/linux",
-    simpleIcons: [siLinux, siGnubash],
+    href: "https://github.com/GunayGadimova1357/System",
+    simpleIcons: [siDotnet],
   },
   {
     name: "Network Programming",
-    href: "https://github.com/cisco",
-    simpleIcons: [siCisco],
+    href: "https://github.com/GunayGadimova1357/Network",
+    simpleIcons: [siDotnet],
   },
   {
     name: "React",
-    href: "https://github.com/facebook/react",
+    href: "https://github.com/GunayGadimova1357/React",
     simpleIcons: [siReact],
   },
   {
@@ -89,18 +89,18 @@ const TECHNOLOGIES: TechnologyItem[] = [
   },
   {
     name: "Docker",
-    href: "https://github.com/docker",
+    href: "https://github.com/GunayGadimova1357/DevOps",
     simpleIcons: [siDocker],
   },
   {
     name: "React Native",
-    href: "https://github.com/facebook/react-native",
+    href: "https://github.com/GunayGadimova1357/React-Native",
     fallback: "RN",
     color: "#61DAFB",
   },
   {
     name: "Next.js",
-    href: "https://github.com/vercel/next.js",
+    href: "https://github.com/GunayGadimova1357/next.js",
     simpleIcons: [siNextdotjs],
   },
   {
