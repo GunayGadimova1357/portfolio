@@ -3,15 +3,12 @@
 import type { RefObject } from "react";
 import Image from "next/image";
 import {
-  siCisco,
   siCss,
   siCplusplus,
   siDocker,
   siDotnet,
-  siGnubash,
   siHtml5,
   siJavascript,
-  siLinux,
   siNextdotjs,
   siPostgresql,
   siPython,
@@ -131,35 +128,37 @@ export function AboutBioPanel({ panelRef, intro = false }: AboutBioPanelProps) {
       <div className="absolute inset-x-0 top-0 h-px bg-white/10" />
 
       <div className="relative mx-auto flex w-full max-w-[96rem] flex-col gap-10 px-6 md:px-12">
-        {intro ? (
-          <div className="flex min-h-screen flex-col justify-between pb-10 pt-6 md:pb-14 md:pt-8">
-            <div className="grid gap-10 md:grid-cols-[minmax(0,1fr)_minmax(28rem,1.05fr)] md:items-center">
-              <div className="max-w-3xl">
-                <p className="text-[clamp(2.8rem,7vw,6.5rem)] font-light leading-[0.92] tracking-[-0.08em]">
-                  A short bio.
-                </p>
-                <p className="mt-6 max-w-2xl text-base leading-7 text-white/66 md:text-lg">
-                  Engineering student in Mechatronics and Robotics at ASOIU,
-                  expanding my technical foundation with Software Development
-                  studies at STEP IT Academy.
-                </p>
-              </div>
+      {intro ? (
+  <div className="flex min-h-screen flex-col items-center justify-center pb-10 pt-6 md:pb-14 md:pt-8">
+        <div className="grid w-full gap-10 md:grid-cols-[minmax(0,1fr)_minmax(28rem,1.05fr)] items-center">
+      
+      <div className="max-w-3xl">
+      <p className="text-[clamp(2.8rem,7vw,6.5rem)] font-light leading-[1.1] tracking-[-0.04em]">
+  A short bio.
+</p>
+        <p className="mt-6 max-w-2xl text-base leading-7 text-white/66 md:text-lg">
+          Engineering student in Mechatronics and Robotics at ASOIU,
+          expanding my technical foundation with Software Development
+          studies at STEP IT Academy.
+        </p>
+      </div>
 
-              <div className="w-full md:justify-self-end">
-                <div className="relative h-[18rem] w-full max-w-[44rem] overflow-hidden rounded-[2rem] border border-white/10 bg-white/4 shadow-[0_24px_80px_rgba(0,0,0,0.32)] md:h-[26rem]">
-                  <Image
-                    src="/lilyblooming.gif"
-                    alt="Blooming lily"
-                    fill
-                    unoptimized
-                    className="object-cover object-center"
-                  />
-                  <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,9,11,0.04)_0%,rgba(7,9,11,0.18)_100%)]" />
-                </div>
-              </div>
-            </div>
-          </div>
-        ) : null}
+      <div className="w-full md:justify-self-end">
+        <div className="relative h-[18rem] w-full max-w-[44rem] overflow-hidden rounded-[2rem] border border-white/10 bg-white/4 shadow-[0_24px_80px_rgba(0,0,0,0.32)] md:h-[26rem]">
+          <Image
+            src="/lilyblooming.gif"
+            alt="Blooming lily"
+            fill
+            unoptimized
+            className="object-cover object-center"
+          />
+          <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,9,11,0.04)_0%,rgba(7,9,11,0.18)_100%)]" />
+        </div>
+      </div>
+      
+    </div>
+  </div>
+) : null}
 
         {!intro ? (
           <div className="border-t border-white/8 py-18 md:py-24">
